@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "jmeow.selectiveofflinemode.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PlayerManagerMixin",
+		"ServerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

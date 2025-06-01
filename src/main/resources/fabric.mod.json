@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "selective-offline-mode",
+	"version": "${version}",
+	"name": "Selective Offline Mode",
+	"description": "Allows only allowed players to join the server unauthenticated.",
+	"authors": [
+		"Jmeow"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/selective-offline-mode/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"jmeow.selectiveofflinemode.SelectiveOfflineMode"
+		]
+	},
+	"mixins": [
+		"selective-offline-mode.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
